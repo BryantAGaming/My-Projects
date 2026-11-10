@@ -1,0 +1,104 @@
+.body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 20px 120px;
+  color: white;
+}
+
+.background-color {
+  background-color: #0b0033;
+}
+
+.nav-styling {
+  font-size: 24px;
+}
+
+.nav-bg {
+  background-color: #3a5664;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.sec-size {
+  font-size: 42px;
+}
+
+.div-flex-styling {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.styling {
+  border: 1px solid white;
+  border-radius: 24px;
+  padding: 12px;
+  background-color: #5d6b72;
+  color: white;
+}
+
+.styling {
+  border: 1px solid white;
+  border-radius: 26px;
+  padding: 16px 32px;
+  background-color: #26323d;
+  color: white;
+  font-size: 16px;
+}
+
+.diff-styling {
+  border: 1px solid orangered;
+  border-radius: 26px;
+  padding: 16px 32px;
+  background-color: orangered;
+  color: black;
+  font-size: 16px;
+}
+
+.sec-styling {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row-holder {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.card-holder {
+  width: 33%;
+  background-color: #26323d;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.pic {
+  border-radius: 16px;
+}
+.color {
+  color: #5d6b72;
+}
+
+.remove {
+  border: 1px solid white;
+  color: white;
+  border-radius: 32px;
+  padding: 4px 24px;
+  background-color: transparent;
+}
+
+.div-styling {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.other-div-styling{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}

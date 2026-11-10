@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="my_first_h1">Bryant is 4'11</h1>
+    <h2>And he is 36kg and he is fair in complexion.</h2>
+    <h1 id="my_timer">
+
+    </h1>
+
+    <script>
+      let h1 = document.getElementById("my_timer");
+      let counter = 10;
+      let intervaltimer = setInterval(() => {
+        counter--;
+        h1.innerText = counter;
+        if(counter < 4){
+          h1.style.color = "red"
+         h1.style.fontSize = "80px"
+        }
+        if (counter === 0) {
+          clearInterval(intervaltimer);
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>

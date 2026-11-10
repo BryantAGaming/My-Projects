@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./do.css" />
+</head>
+
+<body>
+    <nav>
+        <h1 id="logo" class="nav-items">Love</h1>
+        <div>
+            <h1 class="nav-items">login</h1>
+            <h1 class="nav-items">register</h1>
+        </div>
+    </nav>
+    <div class="div-div">
+        <section class="company-section">
+        </section>
+    </div>
+    <div class="grand-parent">
+        <div class="div-container">
+            <button class="nav-items2" id="reset-color">Reset Color</h1>
+                <button class="nav-items2" id="change-color">Change Color</h1>
+        </div>
+    </div>
+    <script>
+        let first_button = document.getElementById("reset-color");
+        let second_button = document.getElementById("change-color");
+        let red = 255;
+        let green = 255;
+        let blue = 255;
+        let box_color = document.querySelector(".company-section");
+        box_color.style.background = `rgb(${red}, ${green}, ${blue})`;
+        second_button.addEventListener("click", () => {
+            let colors = ["#F7F4EA", "#DED9E2", "#C0B9DD", "#80A1D4"];
+            let randomVal = Math.floor(Math.random() * 4)
+
+            box_color.style.background = colors[randomVal];
+
+        })
+
+
+        first_button.addEventListener("click", () => {
+            console.log("Hello");
+            box_color.style.background = `rgb(${red}, ${green}, ${blue})`;
+        })
+
+    </script>
+</body>
+
+</html>

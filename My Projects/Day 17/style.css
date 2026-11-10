@@ -1,0 +1,17 @@
+h1 {
+  border: 10px double lightblue;
+  font-size: 70px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#class_6pm_7pm {
+  border: 10px double lightcoral;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#my-age {
+  border: 10px double lightseagreen;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.good-day {
+  border: 10px double lightsalmon;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}

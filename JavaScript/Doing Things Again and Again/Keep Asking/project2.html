@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let savedPassword = "Bryant123";
+        let userPassword = prompt("What is your password: "); //1 trial
+        if (userPassword === savedPassword) {
+            console.log("You're logged in! and you got it in your first Trial");
+        } else {
+            let i = 0;
+            while (i < 4 && userPassword !== savedPassword) {
+                userPassword = prompt("What is your password: ");
+                i++;
+            }
+
+            if (userPassword === savedPassword) {
+                console.log(`You're logged in after ${i + 1} trial`)
+            }
+            else {
+                console.log(
+                    "You are an imposter is, and trying to steal the user's detail, you're logged out!",
+                );
+            }
+        }
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

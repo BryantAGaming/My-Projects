@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello</h1>
+    <h1>Ciao</h1>
+    <h1>Bonjour</h1>
+    <h1>Hai</h1>
+    <h1>Hola</h1>
+    <script>
+        let languages_h1 = document.getElementsByTagName("h1")
+        console.log(languages_h1);
+        let first_languages_h1 = languages_h1[0];
+        console.log(first_languages_h1);
+        let second_languages_h1 = languages_h1[1];
+        console.log(second_languages_h1);
+        let third_languages_h1 = languages_h1[2];
+        console.log(third_languages_h1);
+        let fourth_languages_h1 = languages_h1[3];
+        console.log(fourth_languages_h1);
+        let fifth_languages_h1 = languages_h1[4];
+        console.log(fifth_languages_h1);
+
+        setTimeout(() => {
+           first_languages_h1.style.color = "#DDD8C4";
+           second_languages_h1.style.color = "#A3C9A8";
+           third_languages_h1.style.color = "#84B59F";
+           fourth_languages_h1.style.color = "#69A297";
+           fifth_languages_h1.style.color = "#50808E"
+        }, 3000)
+    </script>
+</body>
+
+</html>

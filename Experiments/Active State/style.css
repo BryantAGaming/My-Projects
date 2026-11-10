@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+.inactive:hover {
+    font-size: 17px;
+    background-color: #C6CFD2;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.active {
+    background-color: #A1C6EA;
+    border-radius: 30px;
+    color: #2D4B76;
+    padding: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("https://images.pexels.com/photos/7135053/pexels-photo-7135053.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+}
+
+.title-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    font-weight: bold;
+    color: #3b4743;
+    position: relative;
+}
+
+.title-nav2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-size: 2em;
+    color: #475550;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 300px;
+    position: relative;
+
+};
+
+.number {
+    font-weight: bold;
+    font-size: 100px;
+    color: #475550;
+}

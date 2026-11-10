@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="title-nav">
+      <h1>THE</h1>
+    </nav>
+    <nav class="title-nav2">
+      <p>Pointless Button</p>
+    </nav>
+    <div>
+      <p class="number" style="border: 1px solid red;">0</p>
+    </div>
+    <section class="button">
+      <div style="position: relative">
+        <div id="button2">
+          <img
+            src="https://static.wikia.nocookie.net/dumbway2sdie/images/6/6f/RedButton.png/revision/latest?cb=20141202092931"
+            alt="A button"
+            width="300"
+          />
+        </div>
+      </div>
+    </section>
+    <script>
+      let countButtonClick = 1;
+      let button = document.getElementById("button2");
+      button.addEventListener("click", () => {
+        console.log(countButtonClick++);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="name">My name is Bryant!!!</p>
+    <p id="sister_name">I have a sister named Ivana.</p>
+    <h1 class="dad_name">My dad's name is Tim.</h1>
+    <h2 class="dad_name">He love eba!!!</h2>
+    <h3 class="dad_name">He weigh 99kg.</h3>
+    <script>
+        /// Bryant id
+        let brytfizi = document.getElementById("name");
+        brytfizi.style.fontFamily = "Arial, Helvetica, sans-serif";
+        /// Ivana id
+        let ivafizi = document.getElementById("sister_name");
+        ivafizi.style.fontFamily = "Arial, Helvetica, sans-serif";
+        /// Tim/Dad class
+        let drefizi = document.getElementsByClassName("dad_name");
+        console.log(drefizi);
+        let first_drefizi = drefizi[0]
+        console.log(first_drefizi);
+        let second_drefizi = drefizi[1]
+        console.log(second_drefizi);
+        let third_drefizi = drefizi[2]
+        console.log(third_drefizi);
+        console.log(third_drefizi.textContent);
+        // drefizi.style.fontFamily = "Arial, Helvetica, sans-serif";
+
+        setTimeout(() => {
+            brytfizi.style.color = "#CC1417";
+            ivafizi.style.color = "#F27D7F";
+            drefizi[0].style.fontSize = 32;
+
+            first_drefizi.textContent = "MR MARK IS DA GOAT!!! ";
+            first_drefizi.style.color = "#FFCC33";
+            second_drefizi.textContent = "I like jollof rice";
+            second_drefizi.style.fontSize = "56px";
+            second_drefizi.style.color = "";
+
+
+        }, 3000)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let mystery_Number = 1000;
+        let i = +prompt("What is my mystery number ???");
+        let tries = 1;
+        while (i != mystery_Number) {
+            i = +prompt("What is my mystery number ???")
+            tries++;
+        };
+        console.log("Your total amount of tries is", tries)
+        if (tries <= 5) {
+            console.log("Rare (≧▽≦q)")
+        }
+        else if (tries > 5 && tries <= 10) {
+            console.log("Common （*＾-＾*）")
+        }
+        else {
+            console.log("Beginner {{{(>_<)}}}")
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
